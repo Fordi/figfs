@@ -6,13 +6,9 @@ In addition, figfs has the ability to create a “workspace” in which the cont
 
 ### Releases
 
-v0.1.0: First official release, _very_ beta-level code: [source](figfs-0.1.0.tar.bz2) [linux-amd64](figfs-0.1.0-linux-amd64.tar.bz2)
+v0.1.0: First official release, _very_ beta-level code
 
-### Getting the source
-
-The project is a work in progress. The current source can be obtained from version control with the following command or you can [browse the source online](http://github.com/reillyeon/figfs):
-
-    git clone git://github.com/reillyeon/figfs.git
+### Building from source
 
 The following packages are required to build and run figfs:
 
