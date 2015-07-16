@@ -12,8 +12,8 @@ v0.1.0: First official release, _very_ beta-level code
 
 The following packages are required to build and run figfs:
 
-*   [ounit](http://www.xs4all.nl/~mmzeeman/ocaml/) (tested with 1.0.2)
-*   [camlzip](http://cristal.inria.fr/~xleroy/software.html#camlzip) (tested with 1.03)
-*   [ocaml-sqlite3](http://www.ocaml.info/home/ocaml_sources.html#toc13) (tested with 1.2.0)
+*   [ounit](http://www.xs4all.nl/~mmzeeman/ocaml/) (tested with 1.0.2; apt link: [libounit-ocaml-dev](apt://libounit-ocaml-dev))
+*   [camlzip](http://cristal.inria.fr/~xleroy/software.html#camlzip) (tested with 1.03; apt link: [libzip-ocaml-dev](apt://libzip-ocaml-dev))
+*   [ocaml-sqlite3](http://www.ocaml.info/home/ocaml_sources.html#toc13) (tested with 1.2.0; apt link: [libsqlite3-ocaml-dev](apt://libsqlite3-ocaml-dev))
 
-Code is licensed under the GPLv2\. The project was the Senior Design Project of [reillyeon](http://github.com/reillyeon) at the University of Pennsylvania’s School of Engineering and Applied Science with Jonathan M. Smith as advisor.
+Code is licensed under the GPLv2\. The project was the Senior Design Project of [Reilly Grant](http://github.com/reillyeon) at the University of Pennsylvania’s School of Engineering and Applied Science with Jonathan M. Smith as advisor.
