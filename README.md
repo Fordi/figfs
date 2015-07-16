@@ -10,8 +10,15 @@ v0.1.0: First official release, _very_ beta-level code
 
 ### Building from source
 
-The following packages are required to build and run figfs:
+#### Requirements
 
+* [ocaml](https://ocaml.org/) (apt link: [ocaml](apt://ocaml))
+* [camlidl](http://caml.inria.fr/pub/old_caml_site/camlidl/) (apt link: [camlidl](apt://camlidl))
+
+
+#### Library dependencies
+
+* [FUSE headers](http://fuse.sourceforge.net/) (apt link: [libfuse-dev](apt://libfuse-dev))
 *   [ounit](http://www.xs4all.nl/~mmzeeman/ocaml/) (tested with 1.0.2; apt link: [libounit-ocaml-dev](apt://libounit-ocaml-dev))
 *   [camlzip](http://cristal.inria.fr/~xleroy/software.html#camlzip) (tested with 1.03; apt link: [libzip-ocaml-dev](apt://libzip-ocaml-dev))
 *   [ocaml-sqlite3](http://www.ocaml.info/home/ocaml_sources.html#toc13) (tested with 1.2.0; apt link: [libsqlite3-ocaml-dev](apt://libsqlite3-ocaml-dev))
