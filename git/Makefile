@@ -19,7 +19,7 @@ include ../common-defs.mk
 all: $(if $(BYTE_ENABLED), git.cma cat-file git-test) \
      $(if $(NATIVE_ENABLED), git.cmxa cat-file.opt git-test.opt) \
 
-OCAMLFLAGS = -package unix,oUnit,camlzip -warn-error -A -g -I .
+OCAMLFLAGS = -package unix,oUnit,zip -warn-error -A -g -I .
 
 OCAML_SOURCE = hash.ml \
                util.ml \

@@ -19,7 +19,7 @@ include ../common-defs.mk
 all: $(if $(BYTE_ENABLED), mount.figfs figfs figfs_test) \
      $(if $(NATIVE_ENABLED), mount.figfs.opt figfs.opt figfs_test.opt)
 
-OCAMLFLAGS = -thread -package unix,threads,bigarray,camlzip,sqlite3 -warn-error -A -g -I ../git -I ../fuse -I .
+OCAMLFLAGS = -thread -package unix,threads,bigarray,zip,sqlite3 -warn-error -A -g -I ../git -I ../fuse -I .
 
 OCAML_SOURCE = command.ml workspace.ml figfs.ml
 
